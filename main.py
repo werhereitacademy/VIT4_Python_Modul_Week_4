@@ -41,7 +41,8 @@ while True:
                 pass
 
             elif menu_member_transaction=="2":
-                add_book()
+                add_member()
+                
 
             elif menu_member_transaction=="3":
                 uye_ara(arama)
@@ -86,7 +87,7 @@ while True:
                 pass
 
             elif menu_book_transactioni=="2":
-                kitap_ekle(Kitap_Adi, Yazar, Yayinevi, Barkod)
+                add_book()
 
             elif menu_book_transactioni=="3":
                 kitap_arama(arama)
