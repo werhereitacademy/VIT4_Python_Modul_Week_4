@@ -1,7 +1,7 @@
-import kitap_islemleri
-import uye_islemleri
+import book_transaction
+import member_transaction
 import json
-import zaman
+import time
 
 
 while True:
