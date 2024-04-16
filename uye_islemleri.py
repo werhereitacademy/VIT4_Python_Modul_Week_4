@@ -1,4 +1,4 @@
-import kitap_işlemleri
+import kitap_islemleri
 import json
 import os
 

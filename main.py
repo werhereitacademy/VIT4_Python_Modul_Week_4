@@ -1,5 +1,5 @@
-import kitap_işlemleri
-import uye_işlemleri
+import kitap_islemleri
+import uye_islemleri
 import json
 import zaman
 
