@@ -1,5 +1,4 @@
 import json
-import osimport json
 import os
 
 BOOKS_FILE = "books.json"
