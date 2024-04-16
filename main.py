@@ -76,6 +76,7 @@ while True:
 |               version 1.04                       |       
 |           copyright@vit4 group2                  |
 |==================================================| """)
+
         menu_kitap_islemleri= input("Lütfen Bir seçim yapiniz:")
         
         if menu_kitap_islemleri=="1":
@@ -104,6 +105,12 @@ while True:
 
     else:
         print("Geçersiz seçim! Lütfen geçerli bir seçim yapınız.")
+
+while (True):
+    try:
+        print("İslemler")
+    except Exception as hata:
+        print("Hata: ",hata, end="\n\n")
 
 
     
