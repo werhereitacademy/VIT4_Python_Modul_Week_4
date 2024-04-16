@@ -1,5 +1,3 @@
-# book_transactions.py
-
 import json
 import os
 
@@ -115,4 +113,3 @@ def book_menu():
         else:
             print("Invalid choice. Please try again.")
 
-# Define other book functions: delete_book, search_book, update_book, book_menu, etc.
