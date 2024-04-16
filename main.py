@@ -93,7 +93,7 @@ while True:
                 kitap_arama(arama)
             
             elif menu_book_transactioni== "4":
-                kitap_sil(silinecek_veri)
+                delete_book()
 
             elif menu_book_transactioni =="0":
                 print("You are logged out of book transactions")
