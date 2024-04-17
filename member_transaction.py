@@ -1,9 +1,17 @@
+#Kitap işlemleri dosyasını çekiyor.
 import book_transaction
+
+#json kütüphanesi.
 import json
+
+#Dosya kontrolu icin.
 import os
 
+#time dosyasını çekiyor.
+import time
 
 
+#member.json dosyasi olusturulur.(member.json dosyasinin var olup olmadigini sorguluyoruz. Varsa acar yoksa member.json dosyasini olusturur).
 def open_member_file():
     if os.path.exists("member.json"):
         with open("member.json", "r") as members_file:
@@ -22,7 +30,7 @@ def members():
     for member in members:
         print("id:", member["id"], "Member name:", member["Member name"])
 
-
+#Uye guncellemek icin olusturulan fonksiyon.
 def update_member():
     id = int(input("Please enter the id number of the member you want to update:"))
     members = open_member_file()
@@ -37,6 +45,7 @@ def update_member():
             save_member(members)
 
 
+#Uye id kontrolu yapiliyor.(Yeni uye ekleme sirasinda girilen id de uye olup olmadigini kontrol eder).
 def member_check(members, id):
     for member in members:
         if member["id"] == id:
@@ -45,12 +54,14 @@ def member_check(members, id):
         return False
 
 
+#Kaydetme fonksiyonu(member.json dosyasindaki degisiklikleri kaydeder).
 def save_member(members):
     with open("member.json", "w") as members_file:
         json.dump(members, members_file, indent=4)
         print("Successfully updated.")
 
 
+#Yeni uye ekleme fonksiyonu.
 def add_member():
     members = open_member_file()
     id = int(input("Enter an ID number: "))
@@ -68,6 +79,7 @@ def add_member():
     save_member(members)
 
 
+#Uye arama fonksiyonu(Uye id ile sorgulama yapilir ve istenilen id deki uyenin bilgileri listelenir).
 def search_member():
     members = open_member_file()
     try:
@@ -84,6 +96,7 @@ def search_member():
         print("Cannot find the id you are searching for.")
         return search_member()
 
+#Uye silme fonksiyonu.
 def delete_member():
     members = open_member_file()
 
@@ -101,11 +114,12 @@ def delete_member():
     print(f"Member with id {member_to_delete} has been successfully deleted.")
 
 
+#Odunc kitap alma fonksiyonu.
 def borrow_book():
     while True:
         book_borrow_choice = input("Which book do you want to borrow (Press 0 to go back to the main page):")
         if book_borrow_choice == "0":
-            return  # Return to the main page
+            return  # Ana menuye geri gider.
 
         with open("book.json", "r", encoding="utf-8") as file:
             books = json.load(file)
@@ -141,6 +155,7 @@ def borrow_book():
                 print("Please enter a valid ID number.")
 
 
+#Track.json dosyasi olusturulur ve yazilir.
 def write_track(track):
     for loan in track:
         loan["borrow_date"] = datetime.strptime(loan["borrow_date"], "%Y-%m-%d").strftime("%Y-%m-%d")
@@ -151,6 +166,7 @@ def write_track(track):
         print("Successfully updated.")
 
 
+#Track.json dosyasi buradan okunur/yuklenir.
 def read_track():
     if os.path.exists("track.json"):
         with open("track.json", "r") as track_file:
@@ -163,6 +179,7 @@ def read_track():
     return track
 
 
+#Kitap iade islemi fonksiyonu.
 def return_book():
     members = open_member_file()
     try:
@@ -212,6 +229,7 @@ def return_book():
             continue
 
 
+#Kitap takip fonksiyonu.
 def book_tracking():
     members = open_member_file()
     try:
