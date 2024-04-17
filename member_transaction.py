@@ -112,7 +112,7 @@ def borrow_book():
 
         book_found = False
         for book in books:
-            if book["book_name"] == book_borrow_choice:
+            if book["Book_Name"] == book_borrow_choice:
                 book_found = True
                 break
 
@@ -131,7 +131,7 @@ def borrow_book():
                                       "return_date": fourteen_days_later()})
                         write_track(track)
 
-                        new_books = [k for k in books if k["book_name"] != book_borrow_choice]
+                        new_books = [k for k in books if k["Book_Name"] != book_borrow_choice]
                         record(new_books)
                         print("Book borrowed successfully.")
                         return
@@ -191,21 +191,21 @@ def return_book():
             print("-" * 30)
             book_info = loan["Book"]
             print(
-                f"Book in your possession: Book Title: {book_info['book_name']} - Author: {book_info['author']} - Publisher: {book_info['publisher']}")
+                f"Book in your possession: Book Title: {book_info['Book_Name']} - Author: {book_info['Author']} - Publisher: {book_info['Publisher']}")
             print("-" * 30)
 
     while True:
-        return_book_name = input("Which book would you like to return:\nPress 0 to go back. ")
-        if return_book_name == "0":
+        return_Book_Name = input("Which book would you like to return:\nPress 0 to go back. ")
+        if return_Book_Name == "0":
             return
         for loan in track_file:
-            if loan["Member"]["id"] == id and loan["Book"]["book_name"].lower() == return_book_name.lower():
+            if loan["Member"]["id"] == id and loan["Book"]["Book_Name"].lower() == return_Book_Name.lower():
                 books = read()
                 books.append(loan["Book"])
                 track_file.remove(loan)
                 record(books)
                 write_track(track_file)
-                print(f"{return_book_name} book has been successfully returned.")
+                print(f"{return_Book_Name} book has been successfully returned.")
                 return
         else:
             print("The book you entered does not appear to be in your possession.")
@@ -239,7 +239,7 @@ def book_tracking():
             print("-" * 30)
             book_info = loan["Book"]
             print(
-                f"Books in your possession: Book Title: {book_info['book_name']} - Author: {book_info['author']} - Publisher: {book_info['publisher']}")
+                f"Books in your possession: Book Title: {book_info['Book_Name']} - Author: {book_info['Author']} - Publisher: {book_info['Publisher']}")
             print("-" * 30)
         else:
             print("The book you borrowed does not exist.")
