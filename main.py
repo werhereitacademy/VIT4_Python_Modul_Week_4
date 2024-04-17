@@ -6,7 +6,7 @@ import member_transaction
 
 #json kütüphanesi
 import json
-
+import books.json
 #time dosyasını çekiyor.
 import time
 
@@ -53,15 +53,15 @@ while True:
 
             #Üye ekle fonsiyonunu çekiyoruz.(Üye işlemlerinde tanımlı)
             elif menu_member_transaction=="2":
-                add_member()
+                member_transaction.add_member()
                 
              #Üye arama fonsiyonunu çekiyoruz.(Üye işlemlerinde tanımlı)
             elif menu_member_transaction=="3":
-                search_member()
+                member_transaction.search_member()
 
             #Üye silme fonsiyonunu çekiyoruz.(Üye işlemlerinde tanımlı)
             elif menu_member_transaction== "4":
-                delete_member()
+                member_transaction.delete_member()
 
             #Kitap ödünç verme fonksiyonunu çekiyoruz.(Üye işlemlerinde tanımlı)
             elif menu_member_transaction=="5":
@@ -69,11 +69,11 @@ while True:
 
             # Kitap iade verme fonsiyonunu çekiyoruz.(Üye işlemlerinde tanımlı)
             elif menu_member_transaction=="6":
-                return_book()
+                member_transaction.return_book()
 
             #Kitap takibi fonsiyonunu çekiyoruz.(Üye işlemlerinde tanımlı)
             elif menu_member_transaction == "7":
-                book_tracking()
+                member_transaction.book_tracking()
 
             # Üye  işlemlerinden çıkış yapıyoruz.
             elif menu_member_transaction =="0": 
@@ -110,15 +110,15 @@ while True:
 
             #Kitap ekleme fonsiyonunu çağırıyoruz.(Kitap işlemlerinde tanımlı)
             elif menu_book_transactioni=="2":
-                add_book()
+                book_transaction.add_book()
 
             #Kitap arama Fonsiyonunu çağırıyoruz.(Kitap işlemlerinde tanımlı)
             elif menu_book_transactioni=="3":
-                search_book()
+                book_transaction.search_book()
 
             #Kitap silme fonksiyonunu çağırıyoruz.(Kitap işlemlerinde tanımlı)
             elif menu_book_transactioni== "4":
-                delete_book()
+                book_transaction.delete_book()
 
             # Kitap işlemleri Çıkış 
             elif menu_book_transactioni =="0":
