@@ -6,7 +6,7 @@ import member_transaction
 
 #json kütüphanesi
 import json
-import books.json
+
 #time dosyasını çekiyor.
 import time
 
