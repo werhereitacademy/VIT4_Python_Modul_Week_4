@@ -4,7 +4,7 @@ import book_transaction
 #üye işlemleri dosyasını çekiyor.
 import member_transaction
 
-#json kütühanesi
+#json kütüphanesi
 import json
 
 #time dosyasını çekiyor.
