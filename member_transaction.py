@@ -145,9 +145,9 @@ def borrow_book():
                     if member["id"] == id:
                         track = read_track()
 
-                        borrow_date_= current_time().strftime("%Y-%m-%d %H:%M:%S")
+                        borrow_date_= time.current_time().strftime("%Y-%m-%d %H:%M:%S")
 
-                        return_date_=two_weeks_later().strftime("%Y-%m-%d %H:%M:%S")
+                        return_date_=time.two_weeks_later().strftime("%Y-%m-%d %H:%M:%S")
 
                         track.append({"Member": member,  "Book": book,  "borrow_date": borrow_date_ ,
                                         "return_date": return_date_})
