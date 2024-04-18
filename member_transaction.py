@@ -10,6 +10,9 @@ import os
 #time dosyasını çekiyor.
 import time
 
+from datetime import datetime, timedelta
+
+
 
 #member.json dosyasi olusturulur.(member.json dosyasinin var olup olmadigini sorguluyoruz. Varsa acar yoksa member.json dosyasini olusturur).
 def open_member_file():
@@ -141,8 +144,13 @@ def borrow_book():
                 for member in members:
                     if member["id"] == id:
                         track = read_track()
-                        track.append({"Member": member, "Book": book, "borrow_date": current_time(),
-                                      "return_date": fourteen_days_later()})
+
+                        borrow_date_= current_time().strftime("%Y-%m-%d %H:%M:%S")
+
+                        return_date_=two_weeks_later().strftime("%Y-%m-%d %H:%M:%S")
+
+                        track.append({"Member": member,  "Book": book,  "borrow_date": borrow_date_ ,
+                                        "return_date": return_date_})
                         write_track(track)
 
                         new_books = [k for k in books if k["Book_Name"] != book_borrow_choice]
@@ -262,6 +270,15 @@ def book_tracking():
         else:
             print("The book you borrowed does not exist.")
             return
+
+
+
+
+def current_time():
+    return datetime.now()
+
+def two_weeks_later():
+    return current_time() + timedelta(days=14)
 
 
 if __name__ == "__main__":
