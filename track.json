@@ -1,0 +1,20 @@
+[
+    {
+        "Member": {
+            "id": 1,
+            "Member name": "Huseyin",
+            "Tel": "0687859690",
+            "Address": "Den Haag"
+        },
+        "Book": {
+            "Barcode": 9786258495423,
+            "Language": "T\u00fcrk\u00e7e",
+            "Price": 34.3,
+            "Book_Name": "Zamir",
+            "Publisher": "Do\u011fan Kitap",
+            "Author": "Hakan G\u00fcnday"
+        },
+        "borrow_date": "2024-04-19",
+        "return_date": "2024-05-03"
+    }
+]
