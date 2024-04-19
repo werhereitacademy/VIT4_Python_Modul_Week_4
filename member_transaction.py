@@ -1,5 +1,5 @@
 #Kitap işlemleri dosyasını çekiyor.
-import book_transaction
+from book_transaction import delete_book,load_books,save_books
 
 #json kütüphanesi.
 import json
@@ -8,7 +8,8 @@ import json
 import os
 
 #time dosyasını çekiyor.
-import time
+from my_time import current_time, fourteen_days_later
+from datetime import datetime, timedelta
 
 
 #member.json dosyasi olusturulur.(member.json dosyasinin var olup olmadigini sorguluyoruz. Varsa acar yoksa member.json dosyasini olusturur).
@@ -121,7 +122,7 @@ def borrow_book():
         if book_borrow_choice == "0":
             return  # Ana menuye geri gider.
 
-        with open("book.json", "r", encoding="utf-8") as file:
+        with open("books.json", "r", encoding="utf-8") as file:
             books = json.load(file)
 
         book_found = False
@@ -146,7 +147,7 @@ def borrow_book():
                         write_track(track)
 
                         new_books = [k for k in books if k["Book_Name"] != book_borrow_choice]
-                        record(new_books)
+                        save_books(new_books)
                         print("Book borrowed successfully.")
                         return
                 else:
