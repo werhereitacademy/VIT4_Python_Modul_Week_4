@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "phone": "555-1234",
+        "address": "New York, USA"
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "phone": "555-5678",
+        "address": "Los Angeles, USA"
+    },
+    {
+        "id": 3,
+        "name": "Robert Johnson",
+        "phone": "555-9101",
+        "address": "Chicago, USA"
+    },
+    {
+        "id": 4,
+        "name": "Emily Brown",
+        "phone": "555-2345",
+        "address": "Houston, USA"
+    },
+    {
+        "id": 5,
+        "name": "Michael Wilson",
+        "phone": "555-6789",
+        "address": "Philadelphia, USA"
+    },
+    {
+        "id": 6,
+        "name": "Jennifer Taylor",
+        "phone": "555-3456",
+        "address": "Phoenix, USA"
+    },
+    {
+        "id": 7,
+        "name": "David Martinez",
+        "phone": "555-7890",
+        "address": "San Antonio, USA"
+    },
+    {
+        "id": 8,
+        "name": "Jessica Lee",
+        "phone": "555-4567",
+        "address": "San Diego, USA"
+    },
+    {
+        "id": 9,
+        "name": "Christopher White",
+        "phone": "555-8901",
+        "address": "Dallas, USA"
+    },
+    {
+        "id": 10,
+        "name": "Amanda Clark",
+        "phone": "555-5678",
+        "address": "San Francisco, USA"
+    }
+]
