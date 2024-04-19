@@ -218,10 +218,10 @@ def return_book():
             return
         for loan in track_file:
             if loan["Member"]["id"] == id and loan["Book"]["Book_Name"].lower() == return_Book_Name.lower():
-                books = read()
+                books = load_books()
                 books.append(loan["Book"])
                 track_file.remove(loan)
-                record(books)
+                save_books(books)
                 write_track(track_file)
                 print(f"{return_Book_Name} book has been successfully returned.")
                 return
