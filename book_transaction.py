@@ -8,10 +8,10 @@ BOOKS_FILE = "books.json"
 def load_books():
     # Eğer dosya yoksa, boş bir liste oluşturup dosyaya yazıyoruz.
     if not os.path.exists(BOOKS_FILE):
-        with open(BOOKS_FILE, "w") as f:
+        with open(BOOKS_FILE, "w",encoding="utf-8") as f:
             json.dump([], f)
     # Dosyayı okuyup içeriği JSON formatında döndürüyoruz.
-    with open(BOOKS_FILE, "r") as f:
+    with open(BOOKS_FILE, "r",encoding="utf-8") as f:
         return json.load(f)
 
 # Kitapları kaydetmek için dosyaya yazan bir fonksiyon.

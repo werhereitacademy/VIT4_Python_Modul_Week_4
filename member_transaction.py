@@ -11,11 +11,6 @@ import os
 from datetime import datetime, timedelta
 from my_time import current_time, fourteen_days_later
 
-
-from datetime import datetime, timedelta
-
-
-
 #member.json dosyasi olusturulur.(member.json dosyasinin var olup olmadigini sorguluyoruz. Varsa acar yoksa member.json dosyasini olusturur).
 def open_member_file():
     if os.path.exists("member.json"):
@@ -146,13 +141,8 @@ def borrow_book():
                 for member in members:
                     if member["id"] == id:
                         track = read_track()
-
-                        borrow_date_= time.current_time().strftime("%Y-%m-%d %H:%M:%S")
-
-                        return_date_=time.two_weeks_later().strftime("%Y-%m-%d %H:%M:%S")
-
-                        track.append({"Member": member,  "Book": book,  "borrow_date": borrow_date_ ,
-                                        "return_date": return_date_})
+                        track.append({"Member": member, "Book": book, "borrow_date": current_time(),
+                                      "return_date": fourteen_days_later()})
                         write_track(track)
 
                         new_books = [k for k in books if k["Book_Name"] != book_borrow_choice]
@@ -222,7 +212,7 @@ def return_book():
             print("-" * 30)
 
     while True:
-        return_Book_Name = input("Which book would you like to return:\nPress 0 to go back. ")
+        return_Book_Name = input("Which book would you like to return(Press 0 to go back.): ")
         if return_Book_Name == "0":
             return
         for loan in track_file:
@@ -275,13 +265,5 @@ def book_tracking():
 
 
 
-
-def current_time():
-    return datetime.now()
-
-def two_weeks_later():
-    return current_time() + timedelta(days=14)
-
-
 if __name__ == "__main__":
-    pass
+    pas
