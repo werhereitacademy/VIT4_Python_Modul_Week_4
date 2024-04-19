@@ -8,8 +8,9 @@ import json
 import os
 
 #time dosyasını çekiyor.
-from my_time import current_time, fourteen_days_later
 from datetime import datetime, timedelta
+from my_time import current_time, fourteen_days_later
+
 
 
 #member.json dosyasi olusturulur.(member.json dosyasinin var olup olmadigini sorguluyoruz. Varsa acar yoksa member.json dosyasini olusturur).
