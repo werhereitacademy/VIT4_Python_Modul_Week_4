@@ -1,0 +1,119 @@
+[
+    {
+        "Barcode": "01",
+        "Book_Name": "The Great Gatsby",
+        "Publishing_House": "Scribner",
+        "Author": "F. Scott Fitzgerald",
+        "Language": "English",
+        "Price": "10",
+        "status": "available"
+    },
+    {
+        "Barcode": "02",
+        "Book_Name": "To Kill a Mockingbird",
+        "Publishing_House": "J. B. Lippincott & Co.",
+        "Author": "Harper Lee",
+        "Language": "English",
+        "Price": "12",
+        "status": "available"
+    },
+    {
+        "Barcode": "03",
+        "Book_Name": "1984",
+        "Publishing_House": "Secker & Warburg",
+        "Author": "George Orwell",
+        "Language": "English",
+        "Price": "9",
+        "status": "available"
+    },
+    {
+        "Barcode": "04",
+        "Book_Name": "Pride and Prejudice",
+        "Publishing_House": "T. Egerton, Whitehall",
+        "Author": "Jane Austen",
+        "Language": "English",
+        "Price": "8",
+        "status": "available"
+    },
+    {
+        "Barcode": "05",
+        "Book_Name": "The Catcher in the Rye",
+        "Publishing_House": "Little, Brown and Company",
+        "Author": "J. D. Salinger",
+        "Language": "English",
+        "Price": "11",
+        "status": "available"
+    },
+    {
+        "Barcode": "06",
+        "Book_Name": "Harry Potter and the Philosopher's Stone",
+        "Publishing_House": "Bloomsbury",
+        "Author": "J. K. Rowling",
+        "Language": "English",
+        "Price": "15",
+        "status": "available"
+    },
+    {
+        "Barcode": "07",
+        "Book_Name": "The Hobbit",
+        "Publishing_House": "Allen & Unwin",
+        "Author": "J. R. R. Tolkien",
+        "Language": "English",
+        "Price": "13",
+        "status": "available"
+    },
+    {
+        "Barcode": "08",
+        "Book_Name": "Lord of the Flies",
+        "Publishing_House": "Faber and Faber",
+        "Author": "William Golding",
+        "Language": "English",
+        "Price": "10",
+        "status": "available"
+    },
+    {
+        "Barcode": "09",
+        "Book_Name": "The Alchemist",
+        "Publishing_House": "HarperTorch",
+        "Author": "Paulo Coelho",
+        "Language": "English",
+        "Price": "14",
+        "status": "available"
+    },
+    {
+        "Barcode": "10",
+        "Book_Name": "The Da Vinci Code",
+        "Publishing_House": "Doubleday",
+        "Author": "Dan Brown",
+        "Language": "English",
+        "Price": "16",
+        "status": "available"
+    },
+    {
+        "Barcode": "21",
+        "Book_Name": "ee",
+        "Publishing_House": "sd",
+        "Author": "sd",
+        "Language": "sd",
+        "Price": "3",
+        "status": "available"
+    },
+    {
+        "Barcode": "11",
+        "Book_Name": "aaa",
+        "Publishing_House": "as",
+        "Author": "as",
+        "Language": "as",
+        "Price": "2",
+        "status": "available"
+    },
+    {
+        "Barcode": "234",
+        "Book_Name": "qq",
+        "Publishing_House": "d",
+        "Author": "d",
+        "Language": "d",
+        "Price": "3",
+        "status": "available"
+    }
+]
