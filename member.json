@@ -1,0 +1,122 @@
+[
+    {
+        "ID": "001",
+        "Name": "Taner Gunduz",
+        "Telephone Number": "0698635",
+        "Address": "Lakerstraat 37, 4892 KS, Amsterdam"
+    },
+    {
+        "ID": "002",
+        "Name": "Emma Johnson",
+        "Telephone Number": "0625418",
+        "Address": "Keizersgracht 542, 1017 EJ, Amsterdam"
+    },
+    {
+        "ID": "003",
+        "Name": "John Smith",
+        "Telephone Number": "0689745",
+        "Address": "Prinsengracht 927, 1017 JL, Amsterdam"
+    },
+    {
+        "ID": "004",
+        "Name": "Emily Davis",
+        "Telephone Number": "0612398",
+        "Address": "Herengracht 401, 1017 BP, Amsterdam"
+    },
+    {
+        "ID": "005",
+        "Name": "Michael Brown",
+        "Telephone Number": "0698741",
+        "Address": "Singel 50, 1015 AB, Amsterdam"
+    },
+    {
+        "ID": "006",
+        "Name": "Sophia Wilson",
+        "Telephone Number": "0623127",
+        "Address": "Brouwersgracht 246, 1013 HE, Amsterdam"
+    },
+    {
+        "ID": "007",
+        "Name": "Oliver Taylor",
+        "Telephone Number": "0695482",
+        "Address": "Leliegracht 45, 1015 DH, Amsterdam"
+    },
+    {
+        "ID": "008",
+        "Name": "Ava Anderson",
+        "Telephone Number": "0687124",
+        "Address": "Gasthuismolensteeg 6, 1016 AM, Amsterdam"
+    },
+    {
+        "ID": "009",
+        "Name": "William Martinez",
+        "Telephone Number": "0619753",
+        "Address": "Reguliersgracht 8, 1017 KJ, Amsterdam"
+    },
+    {
+        "ID": "010",
+        "Name": "Sophia Garcia",
+        "Telephone Number": "0628347",
+        "Address": "Nieuwezijds Voorburgwal 147, 1012 RJ, Amsterdam"
+    },
+    {
+        "ID": "011",
+        "Name": "Ethan Hernandez",
+        "Telephone Number": "0685236",
+        "Address": "Amstel 2, 1011 PN, Amsterdam"
+    },
+    {
+        "ID": "012",
+        "Name": "Mia Lopez",
+        "Telephone Number": "0691425",
+        "Address": "Westerstraat 150, 1015 MP, Amsterdam"
+    },
+    {
+        "ID": "013",
+        "Name": "James Wright",
+        "Telephone Number": "0614785",
+        "Address": "Oudezijds Voorburgwal 255, 1012 EZ, Amsterdam"
+    },
+    {
+        "ID": "014",
+        "Name": "Charlotte Young",
+        "Telephone Number": "0629301",
+        "Address": "Kalverstraat 110, 1012 PK, Amsterdam"
+    },
+    {
+        "ID": "015",
+        "Name": "Noah King",
+        "Telephone Number": "0692846",
+        "Address": "Prins Hendrikkade 27, 1012 TM, Amsterdam"
+    },
+    {
+        "ID": "016",
+        "Name": "Isabella Clark",
+        "Telephone Number": "0617392",
+        "Address": "Haarlemmerdijk 129, 1013 KE, Amsterdam"
+    },
+    {
+        "ID": "017",
+        "Name": "Lucas Hall",
+        "Telephone Number": "0628159",
+        "Address": "Rozengracht 34, 1016 ND, Amsterdam"
+    },
+    {
+        "ID": "018",
+        "Name": "Ella Lewis",
+        "Telephone Number": "0682369",
+        "Address": "Binnen Wieringerstraat 2, 1013 CA, Amsterdam"
+    },
+    {
+        "ID": "019",
+        "Name": "Alexander Hill",
+        "Telephone Number": "0697148",
+        "Address": "Damstraat 12, 1012 JM, Amsterdam"
+    },
+    {
+        "ID": "020",
+        "Name": "Amelia Green",
+        "Telephone Number": "0614927",
+        "Address": "Lijnbaansgracht 162, 1016 VX, Amsterdam"
+    }
+]
