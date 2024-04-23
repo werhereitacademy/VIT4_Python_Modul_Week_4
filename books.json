@@ -1,0 +1,116 @@
+[
+    {
+        "Barcode": 9780439358071,
+        "Book Title": "The Hunger Games",
+        "Publisher": "Scholastic",
+        "Author": "Suzanne Collins"
+    },
+    {
+        "Barcode": 9780316015844,
+        "Book Title": "The Giver",
+        "Publisher": "Houghton Mifflin",
+        "Author": "Lois Lowry"
+    },
+    {
+        "Barcode": 9780064400558,
+        "Book Title": "Matilda",
+        "Publisher": "Puffin Books",
+        "Author": "Roald Dahl"
+    },
+    {
+        "Barcode": 9780439203531,
+        "Book Title": "The Lightning Thief",
+        "Publisher": "Disney Hyperion",
+        "Author": "Rick Riordan"
+    },
+    {
+        "Barcode": 9780545162074,
+        "Book Title": "Wonder",
+        "Publisher": "Knopf Books for Young Readers",
+        "Author": "R.J. Palacio"
+    },
+    {
+        "Barcode": 9780545663267,
+        "Book Title": "Divergent",
+        "Publisher": "Katherine Tegen Books",
+        "Author": "Veronica Roth"
+    },
+    {
+        "Barcode": 9780439784542,
+        "Book Title": "The Tale of Despereaux",
+        "Publisher": "Candlewick Press",
+        "Author": "Kate DiCamillo"
+    },
+    {
+        "Barcode": 9780142415436,
+        "Book Title": "The Phantom Tollbooth",
+        "Publisher": "Yearling",
+        "Author": "Norton Juster"
+    },
+    {
+        "Barcode": 9780439554930,
+        "Book Title": "Percy Jackson",
+        "Publisher": "Disney Hyperion",
+        "Author": "Rick Riordan"
+    },
+    {
+        "Barcode": 9780316086578,
+        "Book Title": "The Maze Runner",
+        "Publisher": "Delacorte Press",
+        "Author": "James Dashner"
+    },
+    {
+        "Barcode": 9780310764974,
+        "Book Title": "Anne of Green Gables",
+        "Publisher": "HarperCollins",
+        "Author": "L.M. Montgomery"
+    },
+    {
+        "Barcode": 9780064400558,
+        "Book Title": "A Wrinkle in Time",
+        "Publisher": "Square Fish",
+        "Author": "Madeleine L'Engle"
+    },
+    {
+        "Barcode": 9780142501122,
+        "Book Title": "The Secret Garden",
+        "Publisher": "Puffin Books",
+        "Author": "Frances Hodgson Burnett"
+    },
+    {
+        "Barcode": 9780316555106,
+        "Book Title": "Diary of a Wimpy Kid",
+        "Publisher": "Amulet Books",
+        "Author": "Jeff Kinney"
+    },
+    {
+        "Barcode": 9780439554930,
+        "Book Title": "Bridge to Terabithia",
+        "Publisher": "HarperCollins",
+        "Author": "Katherine Paterson"
+    },
+    {
+        "Barcode": 9781481452157,
+        "Book Title": "The Chronicles of Narnia",
+        "Publisher": "HarperCollins",
+        "Author": "C.S. Lewis"
+    },
+    {
+        "Barcode": 9780316058439,
+        "Book Title": "The Giving Tree",
+        "Publisher": "Harper & Row",
+        "Author": "Shel Silverstein"
+    },
+    {
+        "Barcode": 9780141325293,
+        "Book Title": "Charlie and the Chocolate Factory",
+        "Publisher": "Puffin Books",
+        "Author": "Roald Dahl"
+    },
+    {
+        "Barcode": "9780439023481",
+        "Book Title": "Harry Potter",
+        "Publisher": "Scholastic",
+        "Author": "J.K. Rowling"
+    }
+]
